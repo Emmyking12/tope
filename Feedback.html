@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="Feedback.html">FEEDBACK</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="table.html">TABLE</a></li>
+        </ul>
+    </div>
+    <p>FEEDBACK</p>
+    <form action="https://formsubmit.co/timileyine56@gmail.com" method="post" enctype="multipart/form-data">
+    <label for="fname">FIRST NAME</label>
+    <input type="text" id="fname" name="fname" placeholder="first name" required><br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" placeholder="last name" required><br>
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone" placeholder="xxxxxx xxx" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="abcd@gmail.com" name="email" required><br>
+    <label for="pwd">Password:</label>
+    <input type="password" name="pwd"><br>
+    <label for="sub">SUBJECT</label>
+    <!--input type="subject" id="sub" name="sub" placeholder="math" required><br-->
+<select name="Sub" id="sub"><option>Select a Subject</option><option value="math">mathematics </option><option value="Eng">English</option><option value="chem">chemisty</option></select><br>
+    <label>Gender</label><br>
+        <input type="radio" value="Male" name="gender">Male<br>
+        <input type="radio" value="Female" name="gender">Female<br>
+        <input type="radio" value="Other" name="gender">Other<br>
+        <label for="mes">MESSAGE</label>
+        <input type="message" id="mes" name="mes" required><br>
+        <input type="submit" value="send">
+</body>
+</html>
